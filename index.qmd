@@ -12,7 +12,6 @@ execute:
 ## The Problem: Can Algorithms Create Art?
 
 **Core Question:** How can we convert a photograph into an aesthetically pleasing pattern of dots that preserves the visual information of the original image?
-.
 
 **Our Approach:** We'll use a modified void-and-cluster algorithm that:
 1. Creates an importance map identifying visually important regions
