@@ -64,7 +64,7 @@ print(f"Image size: {img_array.shape[0]}x{img_array.shape[1]} pixels")
 
 ## Importance Mapping
 
-Before applying the stippling algorithm, we create an **importance map** that identifies which regions of the image should receive more stipples. The importance map is computed by - 
+Before applying the stippling algorithm, we create an **importance map** that identifies which regions of the image should receive more stipples. The importance map is computed by:
 
 - **Brightness inversion**: The image brightness is inverted so that dark areas receive higher importance and thus more dots, while light areas receive fewer dots
 - **Extreme tone downweighting**: Smooth Gaussian functions downweight tones below 0.2 (very dark) and above 0.8 (very light), creating a gradual transition that preserves mid-tones
